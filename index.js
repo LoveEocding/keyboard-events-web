@@ -9,11 +9,11 @@ const IOS='IOS';
 //键盘是安卓还是IOS
 const jumpClient=()=>{
      let agentInfo=navigator.userAgent;
-     let regExp=/iphone/;
+     let regExp=/iPhone/;
      if(regExp.test(agentInfo)){
-         return ANDROID;
+         return IOS;
      }
-     return IOS;
+     return ANDROID;
 }
 
 /**
@@ -25,7 +25,7 @@ const jumpClient=()=>{
 const inWithOut=(focusEvent,blurEvent)=>{
     if(jumpClient()===ANDROID){
         androidTool.keybordForAndroid(focusEvent,blurEvent);
-    }{
+    }else{
         iosTool.keybordForIos(focusEvent,blurEvent);
     }
 }

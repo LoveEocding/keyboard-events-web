@@ -21,8 +21,7 @@
     "url": "https://github.com/LoveEocding/keyboard-events-web/issues"
   },
   "homepage": "https://github.com/LoveEocding/keyboard-events-web#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@babel/preset-env": "^7.11.5"
   }
