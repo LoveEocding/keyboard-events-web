@@ -1,0 +1,29 @@
+{
+  "name": "keyboard-events-plugin",
+  "version": "1.0.0",
+  "description": "移动端键盘事件属性集合",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveEocding/keyboard-events-web.git"
+  },
+  "keywords": [
+    "keyboard",
+    "phone",
+    "web"
+  ],
+  "author": "nieyao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoveEocding/keyboard-events-web/issues"
+  },
+  "homepage": "https://github.com/LoveEocding/keyboard-events-web#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5"
+  }
+}
